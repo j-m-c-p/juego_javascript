@@ -1,0 +1,110 @@
+<!--
+*Versión 1.0
+* autor: Jhonnatan Cubides and Harley Santoyo
+*Date: 06/06/2017
+-->
+<!DOCTYPE html>
+<html>
+		<head>
+			<title>Ejemplo javascript</title>
+			<meta charset="utf-8">
+            <script src="css/bootstrap/js/jquerymin.js"></script>
+			<script src="css/bootstrap/js/bootstrap.min.js"></script>
+			<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css">
+
+        	<script src="js/mi_js.js"></script>
+        
+		</head>
+
+			<div class="container">
+				<br>
+				<div style="position:absolute;">
+						<button class="btn btn-info">Score= <span id="score">0</span></button>
+				</div>
+				<center>
+		                   
+		                   <div class="modal full screen-modal fade" id="myModal" role="dialog">
+			                    <div class="modal-dialog modal-lg">
+			                    
+			                      <!-- Modal content-->
+			                      <div class="modal-content">
+			                        <div class="modal-header">
+			                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			                          <h3><b><div id="pregunta"> x</div></b></h3>
+			                        </div>
+			                        <div class="modal-body">
+
+			                        	<input type="hidden" id="num_array">
+
+			                        	
+			                            <div class="panel panel-info" id="a" data-dismiss="modal" onclick="respuestas(this.id);"> a </div>
+			                            <br>
+			                            <br>
+										<div class="panel panel-info" id="b" data-dismiss="modal" onclick="respuestas(this.id);">b</div>
+										<br>
+										<br>
+										<div class="panel panel-info" id="c" data-dismiss="modal" onclick="respuestas(this.id);">c</div>
+										<br>
+										<br>
+
+										<h2 style="color:red">Seleccione una de las opciones</h2>
+			                        </div>
+			                        <div class="modal-footer">
+
+			                          <button type="button" class="close" data-dismiss="modal">&times;Cerrar</button>
+			                        </div>
+			                      </div>
+			                      
+			                    </div>
+		                    </div>
+		  
+		                   </center>
+
+
+
+		                   <div class="modal full screen-modal fade" id="myModal1" role="dialog">
+			                    <div class="modal-dialog">
+			                    
+			                      <!-- Modal content-->
+			                      <div class="modal-content">
+			                        <div class="modal-header">
+			                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			                          <h1><div><b>RESULTADOS</b></div></h1>
+			                        </div>
+			                        <div class="modal-body">
+			                        	<input type="hidden" id="num_array">
+
+			                        		<div class="panel panel-info" id="scor" class="" onclick="respuestas(this.id);"></div>
+				                            <br>
+				                            <br>
+											<div class="panel panel-info" id="correc" onclick="respuestas(this.id);"></div>
+											<br>
+											<br>
+											<div class="panel panel-info" id="incorrec" onclick="respuestas(this.id);"></div>
+											<br>
+											<br>
+											<div class="panel panel-info" id="num_pre" class="" onclick="respuestas(this.id);"></div>
+				                            <br>
+				                            <br>
+				                            <h1 style="color:red"><center><b><div class="panel panel-info" id="date" class="" onclick="respuestas(this.id);"></div></b></center></h1>
+									
+			                        </div>
+			                        <div class="modal-footer">
+			                          <button type="button" class="close" data-dismiss="modal">&times;Cerrar</button>
+			                        </div>
+			                      </div>
+			                      
+			                    </div>
+		                    </div>
+					
+
+					
+					<div style="width: 950px;  border-style: none; overflow: none; " id="cont_images"></div>
+
+
+					
+			</div>
+		<body>
+
+		</body>
+</html>
