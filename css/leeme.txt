@@ -1,1 +1,2 @@
-Pegar la carpeta de bootstrap en la carpeta css
+Pegar la carpeta de bootstrap en la carpeta css.
+linck para descargar la libreria de bootstrap:  http://getbootstrap.com/
