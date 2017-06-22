@@ -49,7 +49,8 @@ window.onload = function()
 
  
 /**
-*Esta función trae las imagenes que se encuentran en la carpeta
+*Esta función trae las imagenes que se encuentran en la carpeta.
+* @return  Muestra las imagenes. 
 */
 function painting_elements() 
 {
